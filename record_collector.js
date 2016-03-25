@@ -20,4 +20,4 @@ RecordCollector.prototype = {
   }
 }
 
-module.exports = RecordCollector
+module.exports = RecordCollector;
