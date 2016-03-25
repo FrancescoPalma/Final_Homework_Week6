@@ -13,7 +13,7 @@ RecordCollector.prototype = {
   sellRecord: function(recordToSell, store) {
     index = this.inventory.indexOf(recordToSell);
     if (index > -1) {
-        this.inventory.splice(index, 1);
+      this.inventory.splice(index, 1);
     }
     this.money = recordToSell.price + this.money;
     store.buyRecord(recordToSell);
