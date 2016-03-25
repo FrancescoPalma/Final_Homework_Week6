@@ -1,0 +1,26 @@
+{
+  "name": "record_store",
+  "version": "1.0.0",
+  "description": "### Learning Objectives",
+  "main": "record_store.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancescoPalma/Final_Homework_Week6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancescoPalma/Final_Homework_Week6/issues"
+  },
+  "homepage": "https://github.com/FrancescoPalma/Final_Homework_Week6#readme",
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
