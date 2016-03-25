@@ -10,7 +10,7 @@
 ### Requirements
 
 - Create a constructor to create Record objects with artist, title, price √
-- Create some new records
+- Create some new records √
 - Create a RecordStore that has a name, city and multiple records in it's inventory
 - Give the RecordStore a balance i.e. cash in bank.
 - Add some records to your RecordStore.
