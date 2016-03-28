@@ -30,11 +30,11 @@ RecordStore.prototype = {
     this.balance = recordToBuy + this.balance;
   },
   finSit: function() {
-    stockValue = 0;
+    value = 0;
     _.forEach (this.inventory, function(each) {
-      stockValue = each.price + stockValue;
+      value = each.price + value;
     })
-    return stockValue + this.balance;
+    return value + this.balance;
   }
 };
 
