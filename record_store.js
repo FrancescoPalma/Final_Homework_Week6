@@ -17,11 +17,11 @@ RecordStore.prototype = {
     this.inventory.push(name, city, records);
   },
   listInventory: function() {
-    toReturn = []
+    arr = []
     this.inventory.map(function(each) {
-      toReturn.push(each.title);
+      arr.push(each.title);
     })
-    return toReturn;
+    return arr;
   },
   sellRecord: function(recordToSell) {
     this.balance = recordToSell.price + this.balance;
